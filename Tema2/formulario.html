@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body BGCOLOR="LIGHTYELLOW">
+        <FORM ACTION="" METHOD="POST">
+            <TABLE>
+                <TR>
+                    <TH COLSPAN="2">FORMULARIO DE ALTA</TH>
+                </TR>
+                <TR>
+                    <TD ALIGN="RIGHT">Nombre y apellido</TD>
+                    <TD><INPUT TYPE="TEXT" NAME="nombre"></INPUT></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN="RIGHT">Contraseña de acceso</TD>
+                    <TD><INPUT TYPE="PASSWORD" NAME="contraseña"></INPUT></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN="RIGHT">Sexo</TD>
+                    <TD>
+                        <INPUT TYPE="RADIO" NAME="radio1"></INPUT>Hombre
+                        <INPUT TYPE="RADIO" NAME="radio1"></INPUT>Mujer
+                    </TD>
+                </TR>
+                <TR>
+                    <TD ALIGN="RIGHT">Dirección postal</TD>
+                    <TD><TEXTAREA NAME="direccion" ROWS="4" COLS="30"></TEXTAREA></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN="RIGHT">Localidad</TD>
+                    <TD>
+                        <SELECT NAME="localidad">
+                            <OPTION VALUE="CC">Cáceres</OPTION>
+                            <OPTION VALUE="BA">Badajoz</OPTION>
+                            <OPTION VALUE="TR">Trujillo</OPTION>
+                            <OPTION VALUE="PL">Plasencia</OPTION>
+                            <OPTION VALUE="ME">Mérida</OPTION>
+                        </SELECT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD COLSPAN="2" ALIGN="CENTER"><INPUT TYPE="CHECKBOX"></INPUT>Deseo recibir boletines</TD>
+                </TR>
+                <TR>
+                    <TD ALIGN="CENTER" COLSPAN="2"><INPUT TYPE="SUBMIT" NAME="enviar" VALUE="Realizar registro"></INPUT></TD>
+                </TR>
+            </TABLE> 
+        </FORM>
+</body>
+</html>
