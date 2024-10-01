@@ -1,11 +1,26 @@
+body{
+    margin: 0;
+}
 div.head{
     background-color: blue;
     color: white;
-    height: 60px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+section{
+    height: 80vh;
+}
+section p{
+    margin: 0;
+}
 nav.noticias{
     float: left;
+    height: 80vh;
+    background-color: lightblue;
+}
+footer{
+    height: 10vh;
+    background-color: blue;
 }
