@@ -9,16 +9,23 @@ div.head{
     justify-content: center;
     align-items: center;
 }
+nav.noticias{
+    float: left;
+    height: 80vh;
+    background-color: lightblue;
+    width: 15vw;
+}
+nav.noticias a{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
 section{
     height: 80vh;
 }
 section p{
     margin: 0;
-}
-nav.noticias{
-    float: left;
-    height: 80vh;
-    background-color: lightblue;
 }
 footer{
     height: 10vh;
