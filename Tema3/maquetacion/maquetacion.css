@@ -10,8 +10,24 @@ h2{
     color: white;
     padding: 5px;
     font-size: 25px;
-}
-h2,p{
     margin-left: 100px;
-    margin-right: 70px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+img{
+    margin-left: 200px;
+    margin-right: 10px;
+    float: left;
+}
+p{
+    margin-right: 80px;
+    text-align: justify;
+    text-indent: 30px;
+}
+span.rojo{
+    color: red;
+}
+span.negrita{
+    background-color: white;
+    font-weight: bolder;
 }
