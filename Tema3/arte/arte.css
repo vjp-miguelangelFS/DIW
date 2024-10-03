@@ -21,7 +21,7 @@ fieldset div.titulo label,
 fieldset div.autor label{
     margin-right: 10px;
 }
-form > fieldset h2{
+form  div fieldset h2{
     text-align: center;
 }
 
