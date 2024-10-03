@@ -26,6 +26,7 @@ p{
 }
 span.rojo{
     color: red;
+    font-style: italic;
 }
 span.negrita{
     background-color: white;
