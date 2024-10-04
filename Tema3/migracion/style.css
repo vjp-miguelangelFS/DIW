@@ -11,8 +11,8 @@ h1{letter-spacing:1em;text-align:center;margin:0}
 header{background:black;color:white;margin:0;padding:1.75em 0}
 header p{text-align:center;font-size:medium;line-height:2.154}
 header a{color:white !important}
-#arc th,#arc td{list-style:none;margin:0;padding:0}
-#arc th{text-align:right}
+article th,article td{list-style:none;margin:0;padding:0}
+article th{text-align:right}
 footer,.c{text-align:center;clear:both}
 article th{padding:0 1.75em 0 0;vertical-align:baseline}
 article table{border-collapse:collapse}
