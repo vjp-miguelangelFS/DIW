@@ -1,0 +1,27 @@
+body{
+    background-color: #17568c;
+}
+.contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuadroRegistro{
+    background-color: #efefef;
+    height: 400px;
+    width: 400px;
+}
+header{
+    
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+header img{
+    height: 60px;
+}
+hr{
+    width: 350px;
+    color: red;
+}
