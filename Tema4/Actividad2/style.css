@@ -1,0 +1,40 @@
+/* La pseudo-clase :active aplica el estilo cuando pinchas sobre el enlace */
+li a:active{
+    background-color: black !important;
+    color: white !important;
+}
+/* La pseudo-clase :visited aplica el estilo una vez has visitado el enlace*/
+ li a:visited{
+    background-color: grey;
+    color: green;
+}
+/* La pseudo-clase :link aplica el estilo cuando el enlace no ha sido visitado*/
+li a:link{
+    background-color: grey;
+    color: red;
+}
+/* La pseudo-clase :focus aplica el estilo cuando  tiene el foco)*/
+li a:focus{
+    background-color: grey;
+    color: yellow;
+}
+/* La pseudo-clase :hover aplica el estivo cunado pasas el raton por enciama del enlace*/
+li a:hover{
+    background-color: grey;
+    color: blue;
+}
+
+/* La pseudo-clase :first-child aplica el estilo al primer hijo entre un grupo de hermanos*/
+header h1:first-child{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+}
+/* La pseudo-clase :nth-child(x) aplica el estilo al hijo en la posición marcada entre los parentesis*/
+header h1:nth-child(2){
+    background-color: grey;
+    color: white;
+    font-style: oblique;
+    padding: 5px;
+}
