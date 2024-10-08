@@ -1,3 +1,11 @@
+li a{
+    padding: 5px;
+}
+li{
+    padding: 5px;
+    margin: 0
+}
+
 /* La pseudo-clase :active aplica el estilo cuando pinchas sobre el enlace */
 li a:active{
     background-color: black !important;
@@ -10,7 +18,7 @@ li a:active{
 }
 /* La pseudo-clase :link aplica el estilo cuando el enlace no ha sido visitado*/
 li a:link{
-    background-color: grey;
+    background-color: rgb(202, 191, 191);
     color: red;
 }
 /* La pseudo-clase :focus aplica el estilo cuando  tiene el foco)*/
