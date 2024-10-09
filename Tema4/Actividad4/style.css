@@ -1,0 +1,50 @@
+#titulo {
+    color: teal;
+}
+
+p strong,
+a[href='#'],
+tfoot th,
+tbody th {
+    color: red;
+}
+
+span.destacado,
+thead th,
+tbody th.especial,
+tbody td strong {
+    color: orange;
+}
+
+#subtitulo,
+a[href='#'] em,
+table caption {
+    color: blue;
+}
+
+span.especial {
+    color: purple;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tbody td,
+#adicional a[href='#'] {
+    color: green;
+}
+
+#adicional {
+    color: olive;
+}
+
+#adicional #especial {
+    color: fuchsia;
+}
